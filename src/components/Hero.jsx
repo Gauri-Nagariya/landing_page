@@ -41,7 +41,7 @@ const Hero = () => {
       className="bg-gray-50 py-32 flex flex-col h-163 md:flex-row max-w-full bg-cover pl-30 items-center text-center md:text-left sm:text-left"
       style={{
         backgroundImage: `url(${hero})`,
-        backgroundPosition: "center top 100px", // moves image down 100px
+        backgroundPosition: "center top 110px", // moves image down 100px
       }}
     >
       <div className="md:w-1/2 pl-6  pt-20 pr-10  mr-16">

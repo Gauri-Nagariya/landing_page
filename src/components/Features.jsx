@@ -115,7 +115,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="bg-amber-50 py-16 px-4 sm:px-6 md:px-12 max-w-full">
+    <section className="bg-amber-50 py-16 px-4 sm:px-6 md:px-12 max-w-full md:py-20">
       <div className="flex flex-col items-center sm:flex-row sm:flex-wrap justify-center gap-8 text-center">
         {features.map((f, i) => (
           <div key={i} className="flex flex-col items-center max-w-xs sm:max-w-50">

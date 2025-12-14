@@ -58,7 +58,7 @@ const Subscribe = () => {
           Get Yours Today!
         </h2>
 
-        <p className="mb-6 md:mb-8 text-sm md:text-base text-white/90">
+        <p className="mb-6 md:mb-8 text-sm md:text-base text-white/90 md:pr-140">
           Don’t wait to experience the best in oral care! Click “Buy now”
           to secure your favorites and enjoy a brighter, healthier smile.
         </p>

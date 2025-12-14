@@ -52,7 +52,7 @@ import img3 from "../assets/client3.png";
 import img4 from "../assets/client4.png";
 import img5 from "../assets/client5.png";
 import img6 from "../assets/client6.png";
-import insta from "../assets/insta.png";
+import insta from "/public/images/insta.png";
 
 const ClientsGallery = () => {
   const images = [img1, img2, img3, img4, img5, img6];
