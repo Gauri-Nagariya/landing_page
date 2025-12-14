@@ -44,7 +44,6 @@
 
 // export default ClientsGallery;
 
-
 import React from "react";
 import img1 from "../assets/client1.png";
 import img2 from "../assets/client2.png";
@@ -52,14 +51,12 @@ import img3 from "../assets/client3.png";
 import img4 from "../assets/client4.png";
 import img5 from "../assets/client5.png";
 import img6 from "../assets/client6.png";
-import insta from "/public/images/insta.png";
 
 const ClientsGallery = () => {
   const images = [img1, img2, img3, img4, img5, img6];
 
   return (
     <section className="bg-[#FAF7F2] py-16 md:py-24 text-center">
-      
       <h2 className="text-3xl sm:text-4xl font-lg mb-4 px-4 md:px-0">
         Be a part of the PureBrush family!
       </h2>
@@ -80,13 +77,12 @@ const ClientsGallery = () => {
         ))}
       </div>
 
-      <div className="mt-10 md:mt-12 flex justify-center items-center gap-2 text-sm sm:text-base text-gray-700 cursor-pointer px-4">
+      {/* <div className="mt-10 md:mt-12 flex justify-center items-center gap-2 text-sm sm:text-base text-gray-700 cursor-pointer px-4">
         <a href="#">
-          <img src={insta} alt="" className="w-5 h-5 sm:w-6 sm:h-6" />
+          <img src="/images/insta.png" alt="Instagram" className="w-5 h-5 sm:w-6 sm:h-6" />
         </a>
         <span>Join us on Instagram</span>
-      </div>
-
+      </div> */}
     </section>
   );
 };

@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="flex gap-4 md:gap-8 justify-center md:justify-end mt-4 md:mt-0 ">
+        <div className="flex gap-4 md:gap-8 justify-center md:justify-end mt-4 md:mt-0">
           <a href="#"><img src={instagram} alt="Instagram" className="w-6 h-6 sm:w-8 sm:h-8" /></a>
           <a href="#"><img src={wa} alt="WhatsApp" className="w-6 h-6 sm:w-8 sm:h-8" /></a>
           <a href="#"><img src={fb} alt="Facebook" className="w-6 h-6 sm:w-8 sm:h-8" /></a>
