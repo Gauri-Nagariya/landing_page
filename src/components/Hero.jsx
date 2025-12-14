@@ -15,7 +15,7 @@ const Hero = () => {
           <p className="mb-8 text-white/90 md:pr-60 px-4 md:px-0">
           It's a confidence booster. Our easy-to-use applicator ensures even coverage, making it perfect for daily use.
         </p>
-        <button className="bg-[#104B4F] text-white px-6 py-3 hover:bg-teal-800">
+        <button className="bg-[#104B4F] text-white px-6 py-3 hover:bg-teal-800 cursor-pointer">
           Shop Now
         </button>
       </div>

@@ -23,7 +23,7 @@ const Subscribe = () => {
           to secure your favorites and enjoy a brighter, healthier smile.
         </p>
 
-        <button className="bg-white text-gray-900 px-6 md:px-8 py-3 text-sm transition-transform duration-200 hover:scale-95">
+        <button className="bg-white cursor-pointer text-gray-900 px-6 md:px-8 py-3 text-sm transition-transform duration-200 hover:scale-95">
           Buy now with 20% off
         </button>
       </div>

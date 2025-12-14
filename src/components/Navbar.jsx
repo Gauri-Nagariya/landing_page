@@ -36,12 +36,12 @@ const Navbar = () => {
         <h1 className=" md:text-4xl text-2xl">PureBrush</h1>
 
         <ul className="flex md:flex-row flex-col py-0 h-10 justify-center lg:gap-30 md:gap-6 gap-2 md:text-lg md:pl-80 text-sm ">
-          <li><a href="#" className="hover:underline">Categories</a></li>
-          <li><a href="#" className="hover:underline">Benefits</a></li>
-          <li><a href="#" className="hover:underline">Best-sellers</a></li>
+          <li><a href="#" className="hover:underline cursor-pointer">Categories</a></li>
+          <li><a href="#" className="hover:underline cursor-pointer">Benefits</a></li>
+          <li><a href="#" className="hover:underline cursor-pointer">Best-sellers</a></li>
         </ul>
 
-        <button className="bg-[#104B4F] md:flex hidden text-white md:px-4 md:py-2 hover:bg-teal-800">
+        <button className="bg-[#104B4F] md:flex hidden text-white md:px-4 md:py-2 hover:bg-teal-800 cursor-pointer">
 
           Shop Now
         </button>
