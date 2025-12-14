@@ -26,7 +26,7 @@ const BestSellers = () => {
   ];
 
   return (
-    <section className="bg-[#A7BCB8] py-16 md:py-24 sm:px-10 text-center">
+    <section className="bg-[#A7BCB8] py-16 md:py-24 sm:px-10 text-center p-6">
       
       <h2 className="text-3xl sm:text-4xl font-lg mb-4 px-4 md:px-0">
         Explore our best-sellers
