@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Prevent text selection throughout the app */
+* {
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE/Edge */
+  user-select: none;         /* Standard */
+}
+
+/* Optional: remove tap highlight on mobile */
+body, * {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
