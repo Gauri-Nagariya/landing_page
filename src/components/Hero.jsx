@@ -10,7 +10,7 @@ const Hero = () => {
         backgroundPosition: "center top 110px",
       }}
     >
-      <div className="md:w-1/2 pl-6  pt-22 pr-10  mr-16">
+      <div className="md:w-1/2 pl-6  pt-22 pr-10  mr-20">
         <h1 className="text-5xl font-lg mb-8 w-60 md:w-full md:p-0 text-white">Love Your Smile.</h1>
           <p className="mb-8 text-white/90 md:pr-60 px-4 md:px-0">
           It's a confidence booster. Our easy-to-use applicator ensures even coverage, making it perfect for daily use.

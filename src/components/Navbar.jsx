@@ -33,9 +33,9 @@ const Navbar = () => {
       `}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-0 py-5">
-        <h1 className=" md:text-4xl text-2xl">PureBrush</h1>
+        <h1 className=" md:text-4xl text-xl">PureBrush</h1>
 
-        <ul className="flex lg:gap-30 md:gap-6 gap-4 md:text-lg md:pl-80 text-sm ">
+        <ul className="flex lg:gap-30 md:gap-6 gap-2 md:text-lg md:pl-80 text-sm ">
           <li><a href="#" className="hover:underline">Categories</a></li>
           <li><a href="#" className="hover:underline">Benefits</a></li>
           <li><a href="#" className="hover:underline">Best-sellers</a></li>

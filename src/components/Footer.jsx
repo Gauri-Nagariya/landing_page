@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-[#fefbf3] py-16 text-center text-black">
       <h2 className="text-5xl sm:text-6xl font-lg pb-8 sm:pb-12">PureBrush</h2>
 
-      <div className="flex flex-wrap justify-center gap-6 sm:gap-20 text-lg mb-8 sm:mb-12">
+      <div className="flex flex-wrap justify-center gap-3 sm:gap-20 md:text-lg text-md mb-8 sm:mb-12">
         <a href="#" className="hover:underline">About us</a>
         <a href="#" className="hover:underline">Categories</a>
         <a href="#" className="hover:underline">Benefits</a>
