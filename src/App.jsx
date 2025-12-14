@@ -20,8 +20,6 @@ function App() {
       <Hero />
       <Features/>
       <SectionCard image={improvedOral} title="Improved Oral Health" desc="Premium toothbrushes to improve oral hygiene." btnText="Buy Now"/>
-      {/* <SectionCard image={enhancedAppearance} title="Enhanced Appearance" desc="Achieve a brighter, more confident smile." btnText="Shop Now"/> */}
-      {/* <SectionCard image={brushBoosts} title="Brush Boosts" desc="Our brushes provide superior cleaning." btnText="Learn More"/> */}
       <Testimonials />
       <ClientsGallery />
       <BestSellers />
